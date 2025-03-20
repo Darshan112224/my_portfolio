@@ -1,0 +1,94 @@
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #00ffd5;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #222;
+    border: 1px solid #333;
+    color: #088488;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+/* Remove number input spinner */
+.contact-form input[type="number"]::-webkit-outer-spin-button,
+.contact-form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.contact-form input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield;
+}
+/* Phone Input Styling */
+.phone-input {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.phone-input select {
+    width: 30%;
+}
+
+.phone-input input {
+    width: 70%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00ffd5;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: none;
+}
+
+.btn-submit {
+    background-color: #00ffd5;
+    color: #111;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #00ccaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-heading {
+        font-size: 2rem;
+    }
+}
