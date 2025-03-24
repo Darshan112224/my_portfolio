@@ -6,12 +6,20 @@ import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
 
 // Define the routes (only Home)
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+    [
+        {
+            path: '/',
+            element: <Home />,
+        }
+    ],
     {
-        path: '/',
-        element: <Home />,
+        future: {
+            v7_startTransition: true,
+            v7_relativeSplatPath: true,
+        }
     }
-]);
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
