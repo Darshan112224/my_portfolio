@@ -76,9 +76,9 @@ const Home = () => {
                         description: 'Search and filter colleges using Flask and SQL.',
                         link: 'https://github.com/Darshan112224/college-shortlist'
                     }, {
-                        title: 'AI Website Generator',
-                        description: 'Generate websites using AI power with prompts.',
-                        link: 'https://github.com/Darshan112224/AI-Website-Generator-Backend'
+                        title: 'LungScan AI',
+                        description: 'Lung cancer detection using the power of AI.',
+                        link: 'lungscan-project.vercel.app'
                     }, {
                         title: 'Banking System',
                         description: 'Secure and easy-to-use banking facility.',
